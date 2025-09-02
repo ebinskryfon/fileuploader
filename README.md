@@ -9,7 +9,6 @@ A secure, JWT-authenticated microservice for file upload and download with valid
 - **Metadata Management**: Automatic file metadata extraction and storage
 - **Rate Limiting**: Configurable rate limiting (60 requests/minute by default)
 - **RESTful API**: Clean REST endpoints with comprehensive error handling
-- **Docker Support**: Ready-to-deploy Docker configuration
 - **Health Checks**: Built-in health and readiness endpoints
 
 ## Quick Start 🚀

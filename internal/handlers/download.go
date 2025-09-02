@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"net/http"
-
+	"fmt"
 	"fileuploader/internal/models"
 	"fileuploader/internal/services"
 	"fileuploader/internal/utils"
@@ -52,7 +52,7 @@ func (h *DownloadHandler) GetFile(c *gin.Context) {
 	// Return file content
 	c.Header("Content-Type", metadata.ContentType)
 	c.Header("Content-Disposition", "attachment; filename=\""+metadata.OriginalName+"\"")
-	c.Header("Content-Length", string(rune(metadata.Size)))
+	c.Header("Content-Length", fmt.Sprintf("%d", metadata.Size))
 
 	// Stream file content
 	c.DataFromReader(http.StatusOK, metadata.Size, metadata.ContentType, file, nil)

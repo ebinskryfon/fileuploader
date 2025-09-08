@@ -102,5 +102,6 @@ func (v *ValidationService) isCompatibleContentType(declared, detected string) b
 		}
 	}
 
+	
 	return false
 }

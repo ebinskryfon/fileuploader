@@ -48,8 +48,6 @@ logs/
 .env.staging
 
 # Storage directory (uploaded files - don't commit user data)
-storage/
-uploads/
 
 # Configuration files with secrets
 config.json
@@ -61,9 +59,6 @@ tmp/
 temp/
 *.tmp
 
-# Build artifacts
-fileuploader
-main
 
 # Test cache
 .testcache/

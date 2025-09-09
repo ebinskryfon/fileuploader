@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"fileuploader/internal/config"
-	"fileuploader/internal/models"
+	"github.com/ebinskryfon/fileuploader/internal/config"
+	"github.com/ebinskryfon/fileuploader/internal/models"
 )
 
 type ValidationService struct {

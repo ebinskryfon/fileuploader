@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"fileuploader/internal/models"
+	"github.com/ebinskryfon/fileuploader/internal/models"
 	"io"
 )
 

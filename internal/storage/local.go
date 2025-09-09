@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"fileuploader/internal/models"
-	"fileuploader/internal/utils"
+	"github.com/ebinskryfon/fileuploader/internal/models"
+	"github.com/ebinskryfon/fileuploader/internal/utils"
 )
 
 type LocalStorage struct {

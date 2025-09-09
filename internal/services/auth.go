@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"fileuploader/internal/config"
+	"github.com/ebinskryfon/fileuploader/internal/config"
 
 	"github.com/golang-jwt/jwt/v5"
 )

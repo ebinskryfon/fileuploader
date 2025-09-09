@@ -11,11 +11,11 @@ import (
 	"syscall"
 	"time"
 
-	"fileuploader/internal/config"
-	"fileuploader/internal/handlers"
-	"fileuploader/internal/services"
-	"fileuploader/internal/storage"
-	"fileuploader/internal/utils"
+	"github.com/ebinskryfon/fileuploader/internal/config"
+	"github.com/ebinskryfon/fileuploader/internal/handlers"
+	"github.com/ebinskryfon/fileuploader/internal/services"
+	"github.com/ebinskryfon/fileuploader/internal/storage"
+	"github.com/ebinskryfon/fileuploader/internal/utils"
 	"github.com/gin-gonic/gin"
 )
 

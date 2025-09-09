@@ -6,10 +6,10 @@ import (
 	"mime/multipart"
 	"time"
 
-	"github.com/ebinskryfon/fileuploader/internal/config"
-	"github.com/ebinskryfon/fileuploader/internal/models"
-	"github.com/ebinskryfon/fileuploader/internal/storage"
-	"github.com/ebinskryfon/fileuploader/internal/utils"
+	"github.com/ebinskryfon/fileuploader/config"
+	"github.com/ebinskryfon/fileuploader/models"
+	"github.com/ebinskryfon/fileuploader/storage"
+	"github.com/ebinskryfon/fileuploader/utils"
 )
 
 type UploadService struct {

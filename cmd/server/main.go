@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
-	"fileuploader/internal/config"
-	"fileuploader/internal/server"
-	"fileuploader/internal/utils"
+	"github.com/ebinskryfon/fileuploader/internal/config"
+    "github.com/ebinskryfon/fileuploader/internal/server"
+    "github.com/ebinskryfon/fileuploader/internal/utils"
 )
 
 func main() {

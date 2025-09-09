@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 	"fmt"
-	"github.com/ebinskryfon/fileuploader/internal/models"
-	"github.com/ebinskryfon/fileuploader/internal/services"
-	"github.com/ebinskryfon/fileuploader/internal/utils"
+	"github.com/ebinskryfon/fileuploader/models"
+	"github.com/ebinskryfon/fileuploader/services"
+	"github.com/ebinskryfon/fileuploader/utils"
 	"github.com/gin-gonic/gin"
 )
 
